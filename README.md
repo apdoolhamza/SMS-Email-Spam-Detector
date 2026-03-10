@@ -18,7 +18,7 @@ A lightweight, production-ready Spam Classifier for SMS and short emails. Achiev
 Built with clean engineering practices perfect for real-world deployment in telecom, email gateways, or personal security tools.
 
 <p align="center">
-  <a href="https://huggingface.co/spaces/apdoolhamza/MovieSentimentAI">
+  <a href="https://huggingface.co/spaces/apdoolhamza/SMS-Email-Spam-Detector">
     <img src="Images/screenshot.jpg" width="700"/>
   </a>
 </p>

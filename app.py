@@ -4,7 +4,7 @@ import joblib
 from sklearn.feature_extraction.text import TfidfVectorizer
 
 # Load your trained model
-calibrated_spam = joblib.load("spam_classifier_calibrated.joblib")
+calibrated_spam = joblib.load("Model/spam_classifier_calibrated.joblib")
 
 # Preprocessing + feature builder
 def build_features(message: str):
@@ -69,7 +69,7 @@ with gr.Blocks(title="Spam Email Detector", theme=gr.themes.Soft()) as demo:
             output_explanation = gr.Markdown(label="Why this prediction?")
             confidence_slider = gr.Slider(
                 0, 100, value=0,
-                label="Spam Confidence (%)",
+                label="Confidence (%)",
                 interactive=False
             )
     
